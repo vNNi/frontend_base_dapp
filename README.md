@@ -1,19 +1,24 @@
-# Welcome to HashLips 👄
+# NFT Minter
 
-All the code in these repos was created and explained by HashLips on the main YouTube channel.
+Connect to a Netowrk and deploy your NFT without a marketplace.
 
-To find out more please visit:
+## Where they will be stored?
 
-[📺 YouTube](https://www.youtube.com/channel/UC1LV4_VQGBJHTJjEWUmy8nA)
+At [Ipfs.io](https://ipfs.io/).
 
-[👄 Discord](https://discord.com/invite/qh6MWhMJDN)
+## Prerequesites
 
-[💬 Telegram](https://t.me/hashlipsnft)
+1. Metamask or other browser/extension which implements `web3 ethereum framework`.
 
-[🐦 Twitter](https://twitter.com/hashlipsnft)
+## Running
 
-[ℹ️ Website](https://hashlips.online/HashLips)
+### Local blockhain
 
-# Base Dapp Frontend Layout
+Run a fake blockchain with accounts with fake Ethers.
 
-A base project to start your dapp from.
+1. npx ganache-cli
+
+### Run smart contract migration
+
+1. yarn truffle-migrate.
+
